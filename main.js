@@ -75,10 +75,10 @@ const commonMenu = [
     click: getAllIssues
   },
   {
-    label: "Leave Feedback",
+    label: "Contribute to Project",
     click: () => {
       shell.openExternal(
-        `https://github.com/aulisius/jira-task-helper/issues`
+        `https://github.com/aulisius/jira-task-helper`
       );
     }
   },
